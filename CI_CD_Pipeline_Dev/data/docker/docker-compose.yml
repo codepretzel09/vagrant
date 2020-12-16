@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  web1:
+    image: nginx:latest
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - /home/vagrant/html:/usr/share/nginx/html
+
+  web2:
+    image: nginx:latest
+    restart: always
+    ports:
+      - "8081:80"
+    volumes:
+      - /home/vagrant/html:/usr/share/nginx/html
