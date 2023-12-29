@@ -5,7 +5,7 @@ apt-get update -y
 # Upgrade Packages
 apt-get upgrade -y
 
-# Basic Linux Stuff
+# Basic Linux pkgs
 apt-get install -y git
 
 sudo mkdir /home/vagrant/docker
